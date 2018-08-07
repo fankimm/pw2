@@ -11,7 +11,8 @@ var score
 var prevFrameCount
 
 function setup() {
-  createCanvas(600, 600)
+  pixelDensity(2)
+  createCanvas(windowWidth, windowHeight)
   imageMode(CENTER)
   score = 0
   player = new Planet(width - 100, height - 100, 0, 0, 2, "earth")
