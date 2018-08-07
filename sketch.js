@@ -2,7 +2,7 @@ var player
 var enemy
 var sun
 var item
-var 
+
 
 var isItemGen
 var isItemUse
