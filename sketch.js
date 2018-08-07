@@ -2,7 +2,8 @@ var player
 var enemy
 var sun
 var item
-var isItemGet
+var 
+
 var isItemGen
 var isItemUse
 var isGameOver
@@ -145,7 +146,11 @@ function edgeCheck(planet){
     planet.vel.y *= -1
   }
 }
-
+function mouseDragged(){
+  if(isItemGet){
+    itemUse()
+  }
+}
 function mouseClicked(){
   playerMove(player)
 }
